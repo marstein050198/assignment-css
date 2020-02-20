@@ -1,0 +1,54 @@
+
+.header {
+    grid-area: header;
+    background:;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    <style>
+  }
+
+  .header:hover {
+    background: #FFF0FE;
+
+  }
+
+.bio {
+  text-align: left
+}
+
+  .main {
+    text-align: left;
+    grid-area: main;
+    border-style: ridge;
+    border-color: white;
+    Background: #F1C4ED;
+    font-family:'Barlow Condensed', sans-serif;
+  }
+  .sidebar {
+    text-align: left;
+    grid-area: sidebar;
+    background: white;
+    border-style: dashed;
+    border-color: #F1C4ED;
+    font-family: 'Barlow Condensed', sans-serif;
+  }
+
+.img {
+    <!-- documentation at https://developer.mozilla.org/en-US/docs/Web/CSS/Reference>
+float: right;
+text-align: center;
+}
+.container {
+    display: grid;
+    grid-template-columns: 20px auto 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px auto 200px;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+
+    grid-template-areas:
+    "header header header"
+    "main main sidebar"
+
+}
